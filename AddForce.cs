@@ -17,7 +17,7 @@ public class AddForce : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GetComponent<JelloSpringBody>().AddForce(Vector2.up * force);
+            GetComponent<JelloPressureBody>().AddForce(Vector2.up * force);
 
         }
     }

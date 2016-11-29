@@ -27,7 +27,7 @@ public class KnockBack : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("hitBack");
+
         if (col.GetComponent<JelloPressureBody>())
         {
             if (doKnock != true)
